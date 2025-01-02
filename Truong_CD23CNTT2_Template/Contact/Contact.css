@@ -1,0 +1,59 @@
+body {
+	background-image: url("../anh/Backgr_Noel.gif");
+	background-size: cover; /* Phủ kín toàn bộ màn hình */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+#tt {
+	text-align: left;
+	padding-left: 40px;
+}
+#Layout {height: 650px; width: 800px; margin: auto; border: 3px solid black; outline-style: double; background-color: white; opacity: 0.9}
+a {text-decoration: none;}
+#Header {height: 105px; width: 800px; text-align: center; display: flex; background: linear-gradient(to bottom, #820813, white)}
+#Header p {
+	object-fit: cover; /* Giữ tỉ lệ ảnh khi zoom */
+   	transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+#Header p:hover {
+	transform: scale(1.2)
+}
+
+#GloNav {height: 40px; width: 800px;background-color: blanchedalmond}
+#GloNav ul li {display: inline; margin-left: 5px; margin-right: 54px; font-size: 20px}
+#GloNav ul {border-bottom: 2px solid black; border-top: 2px solid black; padding-bottom: 8px; padding-top: 8px}
+#GloNav a {text-decoration: none; color: black; font-weight: 500; justify-content: center}
+#GloNav ul li a:hover {color: crimson}
+
+#Pagebody {height: 370px; width: 800px; text-align: center; margin-top: 25px}
+#Pagebody #Phan1 img {height: 180px}
+#Pagebody #Phan1 {margin-bottom: 20px}
+#Pagebody #Lcontent {width: 250px; float: left}
+#Pagebody #Lcontent img {
+    object-fit: cover; /* Giữ tỉ lệ ảnh khi zoom */
+    transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+#Pagebody #Lcontent img:hover {
+	transform: scale(1.2) rotate(5deg); /* Phóng to và xoay 5 độ */
+}
+#Pagebody #Rcontent {width: 250px; float: right}
+#Pagebody #Rcontent img {
+    object-fit: cover; /* Giữ tỉ lệ ảnh khi zoom */
+    transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+#Pagebody #Rcontent img:hover {
+	transform: scale(1.2) rotate(5deg); /* Phóng to và xoay 5 độ */
+}
+#Pagebody #Bcontent img {
+	object-fit: cover; /* Giữ tỉ lệ ảnh khi zoom */
+    transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+#Pagebody #Bcontent img:hover {
+	transform: scale(1.2) rotate(5deg); /* Phóng to và xoay 5 độ */
+}
+
+#Footer {width: 800px; height: 100px}
+#Footer p {width: 390px; margin-left: 200px}
+
+
+

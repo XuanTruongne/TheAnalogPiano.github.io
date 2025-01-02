@@ -1,0 +1,31 @@
+body {
+	background-image: url("../anh/Backgr_Noel.gif");
+	background-size: cover; /* Phủ kín toàn bộ màn hình */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+
+#Layout {height: 650px; width: 800px; margin: auto; border: 3px solid black; outline-style: double; background-color: white; opacity: 0.97}
+a {text-decoration: none;}
+#Header {height: 105px; width: 800px; text-align: center; display: flex; background: linear-gradient(to bottom, #820813, white)}
+#Header p {
+	object-fit: cover; /* Giữ tỉ lệ ảnh khi zoom */
+   	transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+#Header p:hover {
+	transform: scale(1.2)
+}
+
+#GloNav {height: 40px; width: 800px;background-color: blanchedalmond; clear: both}
+#GloNav ul li {display: inline; margin-left: 5px; margin-right: 54px; font-size: 20px}
+#GloNav ul {border-bottom: 2px solid black; border-top: 2px solid black; padding-bottom: 8px; padding-top: 8px}
+#GloNav a {text-decoration: none; color: black; font-weight: 500; justify-content: center}
+#GloNav ul li a:hover {color: crimson}
+
+#Phan1 {height: 492px; width: 800px; text-align: center; margin-top: 2px}
+#Phan1 img {height: 100%; width: 100%}
+
+
+
+#Footer {width: 800px; height: 100px}
+#Footer p {width: 390px; margin-left: 200px}
